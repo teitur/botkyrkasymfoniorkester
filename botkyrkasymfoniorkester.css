@@ -1,0 +1,83 @@
+body
+{
+  top : 0;
+  left : 0;
+  margin : 0;
+  padding : 0;
+  background-color : #82c777;
+}
+
+div.bs_body
+{
+  position : relative;
+  margin-left : auto;
+  margin-right : auto;
+  font-family: arial, tahoma, verdana, helvetica, sans-serif;
+  font-size : 14px;
+  width : 1000px;
+border : solid 2px black;
+}
+
+div.bs_title
+{
+  width : 100%;
+  height : 30px;
+border : solid 2px black;
+}
+
+div.bs_main_menu
+{
+  widht : 100%;
+border : solid 2px black;
+}
+
+div#about,
+div#contact,
+div#members,
+div#blog
+{
+  float : left;
+  width : 246px;
+border : solid 2px black;
+}
+
+div.bs_main_frame
+{
+  width : 100%;
+border : solid 2px black;
+}
+
+div#program_this_concert
+{
+  float : left;
+  width : 490px;
+border : solid 2px black;
+}
+
+div#flyer_this_concert
+{
+  float : left;
+  width : 490px;
+border : solid 2px black;
+}
+
+div#next_concert
+{
+  float : left;
+  clear : left;
+  width : 490px;
+border : solid 2px black;
+}
+
+div#miscalleneous
+{
+  float : left;
+  width : 490px;
+border : solid 2px black;
+}
+
+div.bs_footer
+{
+  width : 100%;
+border : solid 2px black;
+}
