@@ -30,15 +30,16 @@ div#title_left
 {
   float : left;
   width : 366px;
-  color : #ff0;
-  border : solid 2px black;
+  color : #ffce00;
+  background-color : #a32a74;
 }
 
 div#title_right
 {
   float : left;
   width : 630px;
-  background-color : #ff0;
+  color : #a32a74;
+  background-color : #ffce00;
 }
 
 div.bs_main_menu
@@ -47,6 +48,8 @@ div.bs_main_menu
   line-height : 20px;
   width : 100%;
   overflow : hidden;
+  background-image : -webkit-gradient(linear, left top, right top, from(#a32a74), to(#ffce00));
+  background : -moz-linear-gradient(left, #a32a74, #ffce00);
 }
 
 div#about,
@@ -61,27 +64,27 @@ div#concert_history
 
 div#about
 {
-  background-color : #ffffd1;
+//  background-color : #ffe769;
 }
 
 div#contact
 {
-  background-color : #fdffd5;
+//  background-color : #edc680;
 }
 
 div#members
 {
-  background-color : #f9ffdc;
+//  background-color : #d8a59c;
 }
 
 div#blog
 {
-  background-color : #f5ffe5;
+//  background-color : #c597a9;
 }
 
 div#concert_history
 {
-  background-color : #f4ffe7;
+//  background-color : #cc95ad;
 }
 
 div.bs_main_frame
