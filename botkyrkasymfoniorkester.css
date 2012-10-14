@@ -1,3 +1,15 @@
+ul
+{
+  list-style : none;
+  margin : 0;
+  padding : 0;
+}
+
+div.clear_both
+{
+  clear : both;
+}
+
 body
 {
   top : 0;
@@ -12,8 +24,9 @@ div.bs_body
   margin-left : auto;
   margin-right : auto;
   font-family: arial, tahoma, verdana, helvetica, sans-serif;
-  font-size : 14px;
+  font-size : 18px;
   width : 1000px;
+  background-image : url("pictures/purple_yellow.png");
 }
 
 div.bs_title
@@ -29,7 +42,7 @@ div.bs_title
 div#title_left
 {
   float : left;
-  width : 366px;
+  width : 370px;
   color : #ffce00;
   background-color : #a32a74;
 }
@@ -98,7 +111,7 @@ div#this_concert
 {
   float : left;
   width : 490px;
-border : solid 2px black;
+  padding-left : 10px;
 }
 
 div#this_concert_flyer
@@ -133,3 +146,44 @@ div.bs_footer
   width : 100%;
 border : solid 2px black;
 }
+
+div#this_concert_date,
+div#this_concert_name
+{
+  float : left;
+  width : 240px;
+  font-weight : bold;
+}
+
+div#this_concert_artists,
+div#this_concert_program
+{
+  margin-top : 20px;
+  float : left;
+  width : 240px;
+}
+
+ul#this_concert_artists li,
+ul#this_concert_program li
+{
+  margin-bottom : 10px;
+}
+
+span#this_concert_artist,
+span#this_concert_composer
+{
+  font-weight : bold;
+}
+
+span#this_concert_piece
+{
+  padding-left : 10px;
+  font-style : italic;
+}
+
+div#this_concert_presentation
+{
+  margin-top : 10px;
+}
+
+
