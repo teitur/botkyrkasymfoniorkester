@@ -1,3 +1,9 @@
+a
+{
+  text-decoration : none;
+  color : black;
+}
+
 ul
 {
   list-style : none;
@@ -23,122 +29,147 @@ div.bs_body
   position : relative;
   margin-left : auto;
   margin-right : auto;
-  font-family: arial, tahoma, verdana, helvetica, sans-serif;
-  font-size : 18px;
-  width : 1000px;
-  background-image : url("pictures/purple_yellow.png");
+  font-family: verdana, arial, tahoma, helvetica, sans-serif;
+  font-size : 16px;
+  width : 900px;
 }
 
 div.bs_title
 {
-  margin-top : 15px;
+  overflow : hidden;
+  margin-top : 20px;
   width : 100%;
-  height : 60px;
-  line-height : 60px;
-  font-size : 60px;
-  text-align : center
+  line-height : 54px;
+  font-size : 54px;
+  text-align : center;
+  border : 2px solid #a32a74;
+  border-radius : 11px;
 }
 
 div#title_left
 {
   float : left;
-  width : 370px;
-  color : #ffce00;
+  width : 330px;
+  color : white;
   background-color : #a32a74;
+  border-top-left-radius : 8px;
+  border-bottom-left-radius : 8px;
 }
 
 div#title_right
 {
   float : left;
-  width : 630px;
-  color : #a32a74;
+  width : 570px;
+  color : black;
   background-color : #ffce00;
+  border-top-right-radius : 8px;
+  border-bottom-right-radius : 8px;
 }
 
 div.bs_main_menu
 {
+  width : 860px;
   margin-top : 20px;
-  line-height : 20px;
-  width : 100%;
+  padding-left : 30px;
+  line-height : 25px;
   overflow : hidden;
-  background-image : -webkit-gradient(linear, left top, right top, from(#a32a74), to(#ffce00));
-  background : -moz-linear-gradient(left, #a32a74, #ffce00);
 }
 
+div#home,
 div#about,
+div#next_concert,
+div#concerts,
 div#contact,
-div#members,
 div#blog,
-div#concert_history
-{
-  float : left;
-  width : 200px;
-}
-
-div#about
-{
-//  background-color : #ffe769;
-}
-
-div#contact
-{
-//  background-color : #edc680;
-}
-
 div#members
 {
-//  background-color : #d8a59c;
+  margin-left : 3px;
+  float : left;
+  text-align : center;
+  background-color : #ffce00;
+  border-top-left-radius : 10px;
+  border-top-right-radius : 10px;
 }
 
+div#home,
+div#about,
+div#concerts,
 div#blog
 {
-//  background-color : #c597a9;
+  width : 100px;
 }
 
-div#concert_history
+
+div#next_concert,
+div#contact,
+div#members
 {
-//  background-color : #cc95ad;
+  width : 140px;
+}
+
+div#home a,
+div#about a,
+div#next_concert a,
+div#concerts a,
+div#contact a,
+div#blog a,
+div#members a
+{
+  display : block;
+}
+
+div#home a:hover,
+div#about a:hover,
+div#next_concert a:hover,
+div#concerts a:hover,
+div#contact a:hover,
+div#blog a:hover,
+div#members a:hover
+{
+  background-color : #ff6d00;
+  border-top-left-radius : 10px;
+  border-top-right-radius : 10px;
 }
 
 div.bs_main_frame
 {
-  margin-top : 30px;
-  width : 100%;
+  width : 900px;
   overflow : hidden;
+  border : 2px solid #ffce00;
+  border-radius : 7px;
 }
 
 div#this_concert
 {
   float : left;
-  width : 490px;
-  padding-left : 10px;
+  width : 580px;
+  min-height : 500px;
+  padding-top : 30px;
+  padding-left : 20px;
+  padding-right : 20px;
+  border-right : 1px solid #ffce00;
 }
 
 div#this_concert_flyer
 {
   float : left;
-  width : 490px;
-border : solid 2px black;
-}
-
-div#next_concert
-{
-  float : left;
-  clear : left;
-  width : 490px;
-border : solid 2px black;
-}
-
-div#links
-{
-  width : 100%;
+  margin : 15px;
+  width : 245px;
+  height : 300px;
+  text-align : center;
+  border : 1px solid #ffce00;
+  border-radius : 15px;
 }
 
 div#miscalleneous
 {
   float : left;
-  width : 490px;
-border : solid 2px black;
+  margin : 15px;
+  padding : 10px;
+  width : 225px;
+  text-align : center;
+  border : 1px solid #a32a74;
+  border-radius : 15px;
 }
 
 div.bs_footer
@@ -147,20 +178,39 @@ div.bs_footer
 border : solid 2px black;
 }
 
-div#this_concert_date,
 div#this_concert_name
 {
   float : left;
-  width : 240px;
+  width : 260px;
   font-weight : bold;
 }
 
-div#this_concert_artists,
-div#this_concert_program
+div#this_concert_date
+{
+  float : left;
+  width : 300px;
+  font-weight : bold;
+}
+
+div#this_concert_frame
 {
   margin-top : 20px;
+  padding : 7px;
+  overflow : hidden;
+  border : 4px solid #a32a74;
+  border-radius : 15px;
+}
+
+ul#this_concert_artists
+{
   float : left;
-  width : 240px;
+  width : 250px;
+}
+
+ul#this_concert_program
+{
+  float : left;
+  width : 300px;
 }
 
 ul#this_concert_artists li,
@@ -186,4 +236,21 @@ div#this_concert_presentation
   margin-top : 10px;
 }
 
+div#this_concert_time_place
+{
+  margin-top : 30px;
+  line-height : 28px;
+  text-align : center;
+}
 
+div#this_concert_footer
+{
+  margin-top : 20px;
+  font-size : 15px;
+  font-family : monospace;
+}
+
+img#this_concert_misc_picture
+{
+  width : 100px;
+}
