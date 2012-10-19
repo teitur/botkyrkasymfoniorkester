@@ -178,7 +178,43 @@ div#miscalleneous
 div.bs_footer
 {
   width : 100%;
-border : solid 2px black;
+  margin-top : 10px;
+  margin-bottom : 20px;
+  padding-top : 10px;
+  text-align : center;
+  border : 2px solid #ffce00;
+  border-radius : 8px;
+}
+
+img#footer_botkyrka_kommun,
+img#footer_sveriges_orkesterforbund,
+img#footer_studieframjandet,
+img#footer_kulturradet
+{
+  margin-right : 25px;
+  margin-left : 25px;
+  padding-bottom : 5px;
+  vertical-align : middle;
+}
+
+img#footer_botkyrka_kommun
+{
+  width : 80px;
+} 
+
+img#footer_studieframjandet
+{
+  width : 120px;
+}
+
+img#footer_kulturradet
+{
+  width : 150px;
+}
+
+img#footer_sveriges_orkesterforbund
+{
+  width : 80px;
 }
 
 div#this_concert_name
@@ -257,4 +293,14 @@ div#this_concert_footer
 img#this_concert_misc_picture
 {
   width : 100px;
+}
+
+div#content_about
+{
+  padding : 10px;
+}
+
+div#content_next_concert
+{
+  padding : 10px;
 }

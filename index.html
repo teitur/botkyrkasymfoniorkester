@@ -2,12 +2,7 @@
   <head>
     <link rel="stylesheet" type="text/css" href="botkyrkasymfoniorkester.css">
     <script src="javascripts/jquery1_8_2.min.js"></script>
-    <script type="text/javascript">
- $(document).ready(function()
- {
-   $("div.bs_main_frame").load("content/this_concert.html");
- });
-    </script>
+    <script type="text/javascript" src="javascripts/botkyrkasymfoniorkester.js"></script>
   </head>
   <body>
     <div class="bs_body">
@@ -22,25 +17,25 @@ SYMFONIORKESTER
 
       <div class="bs_main_menu">
         <div id="home">
-<a href="home.html">Hem</a>
+<a id="main_menu_home" href="#">Hem</a>
         </div>
         <div id="about">
-<a href="about.html">Om oss</a>
+<a id="main_menu_about" href="#">Om oss</a>
         </div>
         <div id="next_concert">
-<a href="next_concert.html">N&auml;sta konsert</a>
+<a id="main_menu_next_concert" href="#">N&auml;sta konsert</a>
         </div>
         <div id="concerts">
-<a href="concerts.html">Konserter</a>
+<a id="main_menu_concerts" href="#">Konserter</a>
         </div>
         <div id="contact">
-<a href="contact.html">Kontakta oss</a>
+<a id="main_menu_contact" href="#">Kontakta oss</a>
         </div>
         <div id="blog">
 Blog
         </div>
         <div id="members">
-<a href="members.html">Medlemssidor</a>
+<a id="main_menu_members" href="#">Medlemssidor</a>
         </div>
       </div>
 
@@ -48,10 +43,10 @@ Blog
       </div>
 
       <div class="bs_footer">
-botkyrka kommun<br>
-studiefr&auml;mjandet<br>
-kulturr&aring;det<br>
-Sveriges orkesterf&ouml;rbund<br>
+<a target="_blank" href="http://www.botkyrka.se/"><img id="footer_botkyrka_kommun" src="pictures/botkyrka_kommun.jpg" /></a>
+<a target="_blank" href="http://www.studieframjandet.se/"><img id="footer_studieframjandet" src="pictures/studieframjandet.gif" /></a>
+<a target="_blank" href="http://www.kulturradet.se/"><img id="footer_kulturradet" src="pictures/kulturradet.gif" /></a>
+<a target="_blank" href="http://www.orkester.nu"><img id="footer_sveriges_orkesterforbund" src="pictures/sveriges_orkesterforbund.jpg" /></a>
       </div>
     </div>
   </body>
