@@ -11,6 +11,11 @@ ul
   padding : 0;
 }
 
+img
+{
+  border : 0;
+}
+
 div.clear_both
 {
   clear : both;
