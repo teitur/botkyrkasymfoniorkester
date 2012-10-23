@@ -29,7 +29,7 @@ $(document).ready(function()
 
   $("a#main_menu_members").click(function()
   {
-    $("div.bs_main_frame").load("content/members.html");
+    $("div.bs_main_frame").load("members/members.html");
   });
 });
 
