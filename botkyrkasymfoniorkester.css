@@ -163,7 +163,9 @@ div#this_concert_flyer
   float : left;
   margin : 15px;
   width : 245px;
-  height : 300px;
+  padding-top : 5px;
+  padding-bottom : 5px;
+  font-size : 12px;
   text-align : center;
   border : 1px solid #ffce00;
   border-radius : 15px;
