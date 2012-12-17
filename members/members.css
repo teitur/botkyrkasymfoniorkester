@@ -22,4 +22,12 @@ div#members_title
   text-align : center;
   font-size : 24px;
   border : dashed 1px black;
+  margin-top : 10px;
+}
+
+div#members_category
+{
+  font-style : italic;
+  width : 100%;
+  margin-top : 10px;
 }

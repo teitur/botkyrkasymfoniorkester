@@ -47,7 +47,7 @@ div.bs_title
   line-height : 52px;
   font-size : 52px;
   text-align : center;
-  border : 2px solid #a32a74;
+  border : 2px solid #35537b;
   border-radius : 11px;
 }
 
@@ -57,9 +57,17 @@ div#title_left
   padding-bottom : 4px;
   width : 330px;
   color : white;
-  background-color : #a32a74;
+  background-color : #35537b;
   border-top-left-radius : 8px;
   border-bottom-left-radius : 8px;
+}
+
+img#title_left,
+img#title_right
+{
+  padding-top : 10px;
+  padding-bottom: 10px;
+  height : 40px;
 }
 
 div#title_right
@@ -67,71 +75,57 @@ div#title_right
   float : left;
   padding-bottom : 4px;
   width : 570px;
-  color : black;
-  background-color : #ffce00;
+  color : #35537b;
+  background-color : #efefd9;
   border-top-right-radius : 8px;
   border-bottom-right-radius : 8px;
 }
 
 div.bs_main_menu
 {
-  width : 860px;
+  width : 880px;
   margin-top : 20px;
-  padding-left : 30px;
-  line-height : 25px;
-  overflow : hidden;
+  padding-left : 20px;
+  height : 38px;
 }
 
-div#home,
-div#about,
-div#next_concert,
-div#concerts,
-div#contact,
-div#blog,
-div#members
+ul#main_menu 
+{
+  text-align : center;
+  height : 100%;
+  line-height : 38px;
+}
+
+ul#main_menu li
 {
   margin-left : 3px;
   float : left;
-  text-align : center;
-  background-color : #ffce00;
+  width : 97px;
   border-top-left-radius : 10px;
   border-top-right-radius : 10px;
+  background-color : #35537b;
 }
 
-div#home,
-div#about,
-div#concerts,
-div#blog
+ul#main_menu li#coming_concerts,
+ul#main_menu li#concert_history
 {
-  width : 100px;
+  line-height : 19px;
 }
 
-
-div#next_concert,
-div#contact,
-div#members
+ul#main_menu li#coming_concerts,
+ul#main_menu li#contact,
+ul#main_menu li#members
 {
-  width : 140px;
+  width : 117px;
 }
 
-div#home a,
-div#about a,
-div#next_concert a,
-div#concerts a,
-div#contact a,
-div#blog a,
-div#members a
+ul#main_menu li a
 {
+  color : white;
   display : block;
 }
 
-div#home a:hover,
-div#about a:hover,
-div#next_concert a:hover,
-div#concerts a:hover,
-div#contact a:hover,
-div#blog a:hover,
-div#members a:hover
+ul#main_menu li a:hover
 {
   color : white;
   background-color : #ff6d00;
@@ -139,12 +133,41 @@ div#members a:hover
   border-top-right-radius : 10px;
 }
 
+ul#main_menu_sub_menu
+{
+  position : absolute;
+  display : none;
+}
+
+ul#main_menu_sub_menu li 
+{
+  float : none;
+  width : 200px;
+  line-height : 26px;
+  border-radius : 0;
+  background-color : #efefd9;
+  border-bottom : dashed 1px #35537b; 
+  border-left : solid 3px #35537b; 
+  border-right : solid 3px #35537b; 
+}
+
+ul#main_menu_sub_menu li a
+{
+  color : black;
+}
+
+ul#main_menu_sub_menu li a:hover
+{
+  border-radius : 0;
+}
+
 div.bs_main_frame
 {
   width : 900px;
   overflow : hidden;
-  border : 2px solid #ffce00;
+  border : 2px solid #35537b;
   border-radius : 7px;
+  background-color : #efefd9;
 }
 
 div#this_concert
@@ -155,7 +178,7 @@ div#this_concert
   padding-top : 30px;
   padding-left : 20px;
   padding-right : 20px;
-  border-right : 1px solid #ffce00;
+  border-right : 1px solid #efefd9;
 }
 
 div#this_concert_flyer
@@ -167,8 +190,13 @@ div#this_concert_flyer
   padding-bottom : 5px;
   font-size : 12px;
   text-align : center;
-  border : 1px solid #ffce00;
+  border : 1px solid #efefd9;
   border-radius : 15px;
+}
+
+div#this_concert_flyer img
+{
+  width : 200px;
 }
 
 div#miscalleneous
@@ -178,7 +206,7 @@ div#miscalleneous
   padding : 10px;
   width : 225px;
   text-align : center;
-  border : 1px solid #a32a74;
+  border : 1px solid #35537b;
   border-radius : 15px;
 }
 
@@ -189,7 +217,7 @@ div.bs_footer
   margin-bottom : 20px;
   padding-top : 10px;
   text-align : center;
-  border : 2px solid #ffce00;
+  border : 2px solid #35537b;
   border-radius : 8px;
 }
 
@@ -243,7 +271,7 @@ div#this_concert_frame
   margin-top : 20px;
   padding : 7px;
   overflow : hidden;
-  border : 4px solid #a32a74;
+  border : 4px solid #35537b;
   border-radius : 15px;
 }
 
@@ -307,7 +335,7 @@ div#content_about
   padding : 10px;
 }
 
-div#content_next_concert
+div#content_coming_concerts
 {
   padding : 10px;
 }

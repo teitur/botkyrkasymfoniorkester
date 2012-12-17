@@ -2,29 +2,27 @@ $(document).ready(function()
 {
   $("div.bs_main_frame").load("content/home.html");
 
-  $("a#main_menu_home").click(function()
+  $("ul#main_menu a").click(function()
   {
-    $("div.bs_main_frame").load("content/home.html");
+    content_source = "content/" + $(this).attr("src") + ".html";
+    $("div.bs_main_frame").load( content_source );
   });
 
-  $("a#main_menu_about").click(function()
+  $("ul#main_menu li").each( function()
   {
-    $("div.bs_main_frame").load("content/about.html");
-  });
+    var submenu = $(this).find("ul");
+    if( submenu.length > 0 )
+    {
+      $(this).mouseenter( function()
+      {
+        submenu.stop(true, true).slideDown();
+      });
 
-  $("a#main_menu_next_concert").click(function()
-  {
-    $("div.bs_main_frame").load("content/next_concert.html");
-  });
-
-  $("a#main_menu_concerts").click(function()
-  {
-    $("div.bs_main_frame").load("content/concerts.html");
-  });
-
-  $("a#main_menu_contact").click(function()
-  {
-    $("div.bs_main_frame").load("content/contact.html");
+      $(this).mouseleave( function()
+      {
+        submenu.stop(true, true).slideUp();
+      });
+    }
   });
 });
 
