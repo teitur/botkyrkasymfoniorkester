@@ -208,6 +208,8 @@ div#miscalleneous
   text-align : center;
   border : 1px solid #960b36;
   border-radius : 15px;
+  font-size : 12px;
+  font-style : italic;
 }
 
 div.bs_footer
