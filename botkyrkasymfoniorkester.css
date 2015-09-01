@@ -176,7 +176,7 @@ div.bs_main_frame
 div#this_concert
 {
   float : left;
-  width : 860px;
+  width : 580px;
   min-height : 550px;
   padding-top : 30px;
   padding-left : 20px;
@@ -213,6 +213,7 @@ div#miscalleneous
   border-radius : 15px;
   font-size : 12px;
   font-style : italic;
+  margin-top : 84px;
 }
 
 div.bs_footer
@@ -290,7 +291,7 @@ ul#this_concert_artists
 ul#this_concert_program
 {
   float : left;
-  width : 580px;
+  width : 300px;
 }
 
 ul#this_concert_artists li,
