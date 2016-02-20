@@ -16,6 +16,11 @@ img
   border : 0;
 }
 
+ul#wide_list li
+{
+  line-height : 24px;
+}
+
 div.clear_both
 {
   clear : both;
@@ -256,6 +261,19 @@ img#footer_kulturradet
 img#footer_sveriges_orkesterforbund
 {
   width : 80px;
+}
+
+div#member_instrument
+{
+  float : left;
+  width : 100px;
+}
+
+ul#member_list
+{
+  float : left;
+  margin-bottom : 10px;
+  margin-right : 40px;
 }
 
 div#this_concert_name
