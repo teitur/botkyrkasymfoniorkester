@@ -181,7 +181,7 @@ div.bs_main_frame
 div#this_concert
 {
   float : left;
-  width : 580px;
+  width : 780px;
   min-height : 550px;
   padding-top : 30px;
   padding-left : 20px;
@@ -279,7 +279,7 @@ ul#member_list
 div#this_concert_name
 {
   float : left;
-  width : 260px;
+  width : 360px;
   font-weight : bold;
 }
 
@@ -309,7 +309,7 @@ ul#this_concert_artists
 ul#this_concert_program
 {
   float : left;
-  width : 300px;
+  width : 500px;
 }
 
 ul#this_concert_artists li,
