@@ -1,5 +1,9 @@
 $(document).ready(function()
 {
+  $.ajaxSetup({
+    cache: false
+  });
+
   $("div.bs_main_frame").load("content/home.html");
 
   $("ul#main_menu a").click(function()
