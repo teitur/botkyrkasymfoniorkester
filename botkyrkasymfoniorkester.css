@@ -342,8 +342,23 @@ div#this_concert_time_place
   line-height : 28px;
 }
 
+div#tillganglighet
+{
+  margin-top: 10px;
+  padding-left : 80px;
+  width : 600px;
+  font-size: 16px;
+}
+
+div#tillganglighet ul
+{
+  list-style-type: circle; 
+  padding-left: 16px;
+}
+
 div#this_concert_footer
 {
+  clear: both;
   margin-top : 50px;
   margin-bottom : 15px;
   font-size : 15px;
