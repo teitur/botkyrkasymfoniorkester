@@ -1,14 +1,12 @@
 $(document).ready(function()
 {
-  $.ajaxSetup({
-    cache: false
-  });
+  var ts = Date.now();
 
-  $("div.bs_main_frame").load("content/home.html");
+  $("div.bs_main_frame").load("content/home.html?" + ts);
 
   $("ul#main_menu a").click(function()
   {
-    content_source = "content/" + $(this).attr("src") + ".html";
+    content_source = "content/" + $(this).attr("src") + ".html?" + ts;
     $("div.bs_main_frame").load( content_source );
   });
 
